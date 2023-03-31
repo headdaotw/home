@@ -1,0 +1,44 @@
+/* 其他區域樣式 */
+section {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  section h1,
+  section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  section p {
+    font-size: 1rem;
+  }
+  
+  section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  section ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  /* 響應式設計 */
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin: 1rem 0;
+    }
+  }
+  
